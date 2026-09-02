@@ -1,16 +1,70 @@
-# React + Vite
+Portfolio Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application for displaying and adding project ideas.
 
-Currently, two official plugins are available:
+This project was created using Vite + React. It demonstrates basic React concepts such as components, props, state, controlled forms, searching, array methods, and CSS styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
+Display a list of projects
+Search projects by name
+Add a new project
+Enter project details
+Display projects using reusable components
+Search results update automatically
+1. Requirements
 
-## React Compiler
+Before setting up the project, make sure you have:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Node.js
+npm
+A code editor such as VS Code
+A web browser
+Check Node.js
 
-## Expanding the ESLint configuration
+Open your terminal and run:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+node -v
+
+You should see a version number.
+
+Then check npm:
+
+npm -v
+
+You should also see a version number.
+
+If both commands work, you are ready to continue.
+
+2. Creating the Project With Vite
+
+This project was created using Vite.
+
+To create a new Vite React project, open your terminal and run:
+
+npm create vite@latest
+
+Vite will ask you some questions.
+
+Choose:
+
+Project name: portfolio-platform
+Framework: React
+Variant: JavaScript
+
+Then enter the project folder:
+
+cd portfolio-platform
+
+Install the required packages:
+
+npm install
+
+Start the development server:
+
+npm run dev
+
+Vite will give you a local URL similar to:
+
+http://localhost:5173/
+
+Open that link address in your browser.
