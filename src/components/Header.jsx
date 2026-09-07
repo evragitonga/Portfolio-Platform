@@ -2,7 +2,7 @@ import "../index.css"
 function Header(){
     return (
         <header>
-            PROJECT PLATFORM
+            Personal Project Showcase App
         </header>
     )
 }
